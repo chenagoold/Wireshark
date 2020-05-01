@@ -1,0 +1,6 @@
+.1 sudo airmon-ng start wlan0
+.2 sudo wireshark
+.3 wireshark Preferences Columns wlan_radio.channel
+.4 wireshark Preferences Columns wlan_radio.signal_dbm
+
+
